@@ -1,0 +1,102 @@
+{
+	"file_size_exclusions" : {
+		"is_enabled" : true,
+		"lower_bound" : 102400,
+		"max_upper_bound" : 52428800,
+		"type" : "file_size_exclusions",
+		"upper_bound" : 512000
+	},
+	018-12-04T10:11:06.360+0000 ZeusEventProcessor [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Started processing fileEvent=FileEventPOJO{tenantId=36667, eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082, csp=GITHUB, instanceId=9745, size=null, fileId=bug-verify.docx, fileName=bug-verify.docx, userId=40452051, directory=false, userEmail=SkyhighAdmin, ipAddress=null, createdAt=2018-12-04T10:03:50.000Z, eventTypeInfo=EventTypeInfo{eventName=push, eventType=ITEM_CREATED}, eventAdditionalDetails=EventAdditionalDetails{detailsMap={isCspSpecEvent=true, cspSpecEventUserName=SkyhighAdmin, cloudFileMetadata={
+  "id" : "bug-verify.docx",
+  "isDirectory" : false,
+  "name" : "bug-verify.docx",
+  "createdAt" : "2018-12-04T10:03:50.000Z",
+  "modifiedAt" : "2018-12-04T10:03:50.000Z",
+  "size" : 0,
+  "downloadUrl" : "https://raw.githubusercontent.com/arjun-test/arjunreddy/master/bug-verify.docx",
+  "isSharedLinkEnabled" : false,
+  "isFileSharedExternally" : false,
+  "isTrashed" : false,
+  "sharedLinks" : [ ],
+  "additionalInfo" : {
+    "event_id" : "e659d8ae-f7ab-11e8-8559-8643a0786c75",
+    "github_event" : "push",
+    "object_name" : "bug-verify.docx",
+    "actor_name" : "SkyhighAdmin",
+    "repo_name" : "arjun-test/arjunreddy",
+    "actor_id" : "40452051",
+    "object_id" : "bug-verify.docx"
+  },
+  "folderNameHierarchy" : [ ],
+new pop merger and pop merger popmerger and also popmerger1
+  "folderPath" : ""
+}}}, malwareScanEvent=false} from queue=zeus.events.local
+2018-12-04T10:11:06.398+0000 InstanceActivePolicyReader [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Found the policies in the DB with map={89525=github-merger}
+2018-12-04T10:11:06.404+0000 DlpEventProcessorProvider [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Filtered policies applicable for policy eval github-merger
+2018-12-04T10:11:06.509+0000 FileEventContextProvider [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] FileEvent has no parent folder
+018-12-04T10:11:06.509+0000 FileEventContextProvider [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] FileEvent has no parent folder
+2018-12-04T10:11:06.511+0000 FileEventContextProvider [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] FileEvent has no parent folder
+2018-12-04T10:11:06.847+0000 FileDocument [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Total timeTaken=335 to download for contentSize=11523
+2018-12-04T10:11:07.303+0000 AutonomyContentParser [content-parser-pool-1] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Successfully extracted file=bug-verify.docx with totalTimeTakenInMs=454 fileSize=11 KB accumulatedTextSize=48 bytes memoryUsage=1 GB
+2018-12-04T10:11:07.304+0000 PoliciesEvaluator [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] policiesEvalMillis=0 for policySize=1
+2018-12-04T10:11:07.304+0000 EventProcessingUtils [zeusEventsListenerContainer-24] [DEBUG] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Result Match for policyId=89525 and policyName=github-merger:
+ RuleGroup  [match]  [0ms]
+  MetadataRule  [file:types]  [Microsoft Word,Microsoft Excel,Microsoft PowerPoint,Portable Network Graphics (PNG)]  [match]  [Microsoft Word]  [0ms]
+2018-12-04T10:11:07.306+0000 PolicyResponseExecutor [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Executing the response for reponseplanItem=APPLY_BOX_SECURITY_CLASSIFICATION
+2018-12-04T10:11:07.306+0000 ApplyBoxSecurityClassificationResponseExecutor [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Skip processing document tag response action meant for Box responsePayload=ResponsePayload{parameters={box_security_classification_label=None:None, template_service=Box}} csp=GITHUB
+2018-12-04T10:11:07.307+0000 PolicyResponseExecutor [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Executing the response for reponseplanItem=INCIDENT
+2018-12-04T10:11:07.307+0000 IncidentResponseExecutor [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Executing incident response
+2018-12-04T10:11:07.318+0000 IncidentResponseExecutor [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Successfully created incident=PolicyViolation{incidentId=null, tenantId=36667, type=policy_violation, severity=LOW, createdOnDate=2018-12-04T10:03:50.000Z, workflow=Workflow{id=null, status=null, remediator=null, remediationResponse=null, lastExecutedResponseLabel=Allowed, quarantineDetail=null}, commentDetail=null, incidentDetail=PolicyViolationDetail{eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082, source=API, response=Response{actions=[ALLOW]}, activities=[Activity{name=Created}], collaboration=Collaboration{sharedLink=false, collaborators=[], externalCollaboratorCount=null}, device=null, scan=null, service=Service{name=GitHub For Business, id=21423, instance=Instance{instanceId=9745, instanceName=null}}, user=User{name=<Skyhigh_Redacted>, key=<Skyhigh_Redacted>, role=null, profile=null}, content=Content{item=Item{id=bug-verify.docx, name=bug-verify.docx, itemType=FILE, inlineEmail=false, parentId=null, parentName=null, hierarchy=, createdOnDate=2018-12-04T10:03:50.000Z, modifiedOnDate=2018-12-04T10:03:50.000Z, size=0, mimeType=null, hash=ed4a6dc12cb355809dcd0e731fa68215, searchableMetadata=null, internalMetadata={download_file_id=bug-verify.docx, download_file_userkey=40452051, raw_event_json={"created":false,"deleted":false,"forced":false,"pusher.email":"sivaghanireddy@gmail.com","pusher.name":"SkyhighAdmin","ref":"refs/heads/master","repository.html_url":"https://github.com/arjun-test/arjunreddy","repository.id":158215621,"repository.name":"arjunreddy","repository.private":false,"sender.html_url":"https://github.com/SkyhighAdmin","sender.id":40452051,"sender.login":"SkyhighAdmin","sender.type":"User"}, download_file_url=https://raw.githubusercontent.com/arjun-test/arjunreddy/master/bug-verify.docx, download_file_name=bug-verify.docx}, additionalQuarantinedFileMetadata=null}, policyResult=PolicyResult{policyId=89525, policyName=github-merger, extractedItemType=null, extractedItemTypes=<Skyhigh_Redacted>, extractedItemNames=<Skyhigh_Redacted>, matches=[Match{rule=FileTypeRule, count=1, positions=<Skyhigh_Redacted>, matchDetails={}}], totalMatchCount=1, matchCounts={}, matchFileNames=[], matchHighlights=<Skyhigh_Redacted>}}, incidentTokenized=null, additionalDetails={isCspSpecEvent=true, cspSpecEvent={
+  "event_id" : "e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082",
+  "event_name" : "push",
+  "timestamp" : "2018-12-04T10:03:50.000Z",
+  "event_type" : "ITEM_CREATED",
+  "user" : {
+    "id" : "40452051",
+    "name" : "SkyhighAdmin",
+    "email" : "SkyhighAdmin"
+  },
+  "raw_event_json" : "{\"created\":false,\"deleted\":false,\"forced\":false,\"pusher.email\":\"sivaghanireddy@gmail.com\",\"pusher.name\":\"SkyhighAdmin\",\"ref\":\"refs/heads/master\",\"repository.html_url\":\"https://github.com/arjun-test/arjunreddy\",\"repository.id\":158215621,\"repository.name\":\"arjunreddy\",\"repository.private\":false,\"sender.html_url\":\"https://github.com/SkyhighAdmin\",\"sender.id\":40452051,\"sender.login\":\"SkyhighAdmin\",\"sender.type\":\"User\"}",
+  "object_id" : "bug-verify.docx",
+  "file_download_url" : "https://raw.githubusercontent.com/arjun-test/arjunreddy/master/bug-verify.docx",
+  "tenant_id" : 36667,
+  "csp_id" : 21423,
+  "instance_id" : 9745,
+  "is_folder" : false,
+  "object_name" : "bug-verify.docx",
+  "event_map_variables" : {
+    "event_id" : "e659d8ae-f7ab-11e8-8559-8643a0786c75",
+    "github_event" : "push",
+    "object_name" : "bug-verify.docx",
+    "actor_name" : "SkyhighAdmin",
+    "repo_name" : "arjun-test/arjunreddy",
+    "actor_id" : "40452051",
+    "object_id" : "bug-verify.docx"
+  },
+  "event_category" : "Data Upload"
+}, cspSpecEventAdditionalDetails=null, cspSpecEventUserName=SkyhighAdmin, cloudFileMetadata={
+  "id" : "bug-verify.docx",
+  "isDirectory" : false,
+  "name" : "bug-verify.docx",
+  "createdAt" : "2018-12-04T10:03:50.000Z",
+  "modifiedAt" : "2018-12-04T10:03:50.000Z",
+  "size" : 0,
+  "downloadUrl" : "https://raw.githubusercontent.com/arjun-test/arjunreddy/master/bug-verify.docx",
+  "isSharedLinkEnabled" : false,
+  "isFileSharedExternally" : false,
+  "isTrashed" : false,
+  "sharedLinks" : [ ],
+  "additionalInfo" : {
+    "event_id" : "e659d8ae-f7ab-11e8-8559-8643a0786c75",
+    "github_event" : "push",
+    "object_name" : "bug-verify.docx",
+    "actor_name" : "SkyhighAdmin",
+    "repo_name" : "arjun-test/arjunreddy",
+    "actor_id" : "40452051",
+    "object_id" : "bug-verify.docx"
+  },
+  "folderNameHierarchy" : [ ],
+  "folderPath" : ""
+}, rawEventJson={"created":false,"deleted":false,"forced":false,"pusher.email":"sivaghanireddy@gmail.com","pusher.name":"SkyhighAdmin","ref":"refs/heads/master","repository.html_url":"https://github.com/arjun-test/arjunreddy","repository.id":158215621,"repository.name":"arjunreddy","repository.private":false,"sender.html_url":"https://github.com/SkyhighAdmin","sender.id":40452051,"sender.login":"SkyhighAdmin","sender.type":"User"}}, accountId=null, accountName=null, storage=null, matchedPolicies=MatchedPolicies{matchedPoliciesUniqueIdentifier=43d27409-4db0-40e3-8104-cded470bbcfa, matchedPolicyNames=[github-merger]}, policySource=MCAFEE_SKYHIGH_DLP}, lastModifiedDate=null, userAttributes=null, incidentNoteDetail=null, incidentHistoryDetail=null, lastUpdatedBy=null, updatedBy=null}
+2018-12-04T10:11:07.319+0000 IncidentResponseExecutor [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Successfully executed incident response
+2018-12-04T10:11:07.319+0000 ZeusEventProcessor [zeusEventsListenerContainer-24] [INFO] [tenantId=36667 cspId=21423 userId=40452051 eventId=e659d8ae-f7ab-11e8-8559-8643a0786c75:26ee8677dfb3d36dd0835505a338aea91ec4b3817afce2ea21d012279da4d082 instanceId=9745] Successfully processed: ProcessingStartLatencyFromEventCreationInMs=436360 ProcessingTimeInMs=959 TotalProcessingTimeFromEventCreationInMs=437319 for eventType=ITEM_CREATED from queue=zeus.events.local
